@@ -1,5 +1,5 @@
 class Solution:
-    def reverseVowels(self, s: str) -> str:
+    def reverseVowels(self, s: str) -> str: # function name should be lower case , leetcode doesn't follow the convention
         c = list(s)  # string to list
         j = len(s) - 1
         i = 0
