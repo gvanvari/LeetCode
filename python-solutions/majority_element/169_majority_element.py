@@ -1,3 +1,6 @@
+from typing import List
+import collections
+
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
 
